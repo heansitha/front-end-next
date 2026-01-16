@@ -1,4 +1,4 @@
-import PostCard from "@/app/components/PostCard";
+import PostCard from "@/components/PostCard";
 
 async function fetchDetailPost(id: string) {
     const BASE_URL = "https://jsonplaceholder.typicode.com/";

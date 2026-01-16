@@ -1,6 +1,6 @@
 import Link from "next/link";
-import PostCard from "../components/PostCard";
-import { PostResponse } from "../lib/posts";
+import PostCard from "../../components/PostCard";
+import { PostResponse } from "../../lib/posts";
 
 export default async function DashboardPage() {
   const BASE_URL = "https://jsonplaceholder.typicode.com/";
